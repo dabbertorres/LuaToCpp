@@ -13,3 +13,13 @@ I took that one step further and decided to translate the results into C++.
 This is the result.
 
 I'm sorry.
+
+How to use
+==========
+There is little no error checking.
+Anyways.
+Run it, and give it two strings.
+One being the input file (a Lua script)
+and the second being the output file.
+
+Then it runs and does its black magic.
