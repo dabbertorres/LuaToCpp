@@ -1,0 +1,13 @@
+*.project
+*.txt
+*.workspace
+Makefile
+*.mk
+*.session
+*.alec
+*.d
+*.o
+*.exe
+*.tags
+*.db
+*.conf
