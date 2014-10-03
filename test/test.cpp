@@ -10,7 +10,7 @@ for(int i =  1; i <=  10; i +=  1)
 	x = x + 1;
 }
 
-run = true;
+bool run = true;
 
 while(run)
 {

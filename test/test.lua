@@ -9,7 +9,7 @@ for i = 1, 10, 1 do
 	x = x + 1
 end
 
-run = true
+local run = true
 
 while run do
 	x = x + 1

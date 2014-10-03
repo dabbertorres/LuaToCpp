@@ -86,6 +86,11 @@ int main(int argc, char **argv)
 					{
 						outputLines.push_back("const char* " + variable + " = \"" + value.substr(1, value.size() - 2) + "\";");
 					}
+					// is a boolean
+					else if(value.find("true") != std::string::npos || value.find("false") != std::string::npos)
+					{
+						outputLines.push_back("bool " + variable + " = " + value + ';');
+					}
 					// is a number
 					else
 					{
